@@ -1,14 +1,11 @@
-# git-add-commit-single-file
-Running this file will execute the git add . &amp; git commit -m " " command
+git add commit push in one single bash command
 
-# running this file will add & commit with default message commit time
+execution example:
 
-# this file can also push a custom comment 
+------commit with message first commit-----------
 
-# for default message
+./gitPush.sh "first commit"
 
-./gitPush.sh  
+-------commit with current date time--------------
 
-# for custom message
-
-./gitPush.sh "custom message for git commit"
+./gitPush.sh
